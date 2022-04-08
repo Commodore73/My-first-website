@@ -1,0 +1,102 @@
+.background {
+    background-image : url("beckybackground.jpg")
+    ;
+    background-size : cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {color: aliceblue;
+font-family: Pacifico;}
+
+h2 {color: aliceblue;}
+
+text {color:aliceblue}
+
+body {color:aliceblue}
+
+div {
+    width: auto;
+    height: auto;
+    border:  none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+  
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+  }
+
+  div {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  body {
+    font-family: Source Serif Pro ;
+  }
+
+
+
+  .container {
+      display :flex;
+      flex-direction: column-reverse;
+  }
+
+  .flex-container {
+    display: flex;
+    height: 200px;
+    align-items: center;
+  }
+  .navbar {
+      display:flex;
+      justify-content: space-around;
+  }
+
+  .contactinfo {display: flex;
+justify-content:left;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
